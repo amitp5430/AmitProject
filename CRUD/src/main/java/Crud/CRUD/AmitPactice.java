@@ -3,7 +3,7 @@ package Crud.CRUD;
 public class AmitPactice {
 	private int id;
 	private String name;
-	private String Catogory;
+	
 	public int getId() {
 		return id;
 	}
@@ -16,11 +16,6 @@ public class AmitPactice {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getCatogory() {
-		return Catogory;
-	}
-	public void setCatogory(String catogory) {
-		Catogory = catogory;
-	}
+	
 
 }
